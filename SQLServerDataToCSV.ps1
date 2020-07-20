@@ -1,5 +1,5 @@
-$SQLServer = "LAPTOP-6NNFSG9S\SQLEXPRESS" #use Server\Instance for named SQL instances!
-$SQLDBName = "CustomersDB"
+$SQLServer = "sql server name here" #use Server\Instance for named SQL instances!
+$SQLDBName = "DB Name here"
 $SqlConnection = New-Object System.Data.SqlClient.SqlConnection
 $SqlConnection.ConnectionString = "Server = $SQLServer; Database = $SQLDBName; Integrated Security = True;" 
 $SqlCmd = New-Object System.Data.SqlClient.SqlCommand
